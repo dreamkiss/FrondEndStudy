@@ -1,0 +1,28 @@
+/* 顶部介绍 start */
+.top_introduce{
+    height: 31px;
+    background-color: #f7f7f7;
+    font-size: 14px;
+    line-height: 31px;
+    color: #999999;
+}
+
+.top_introduce_v {
+    position: relative;
+}
+
+.top_introduce_v::after{
+    position: absolute;
+    left: 164px;
+    top: 8px;
+    content: "";
+    width: 1px;
+    height: 14px;
+    background-color:  #999999;
+}
+
+.top_introduce span {
+    color: #333;
+    margin-left: 20px;
+}
+/* 顶部介绍结束 */
